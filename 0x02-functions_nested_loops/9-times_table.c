@@ -35,3 +35,5 @@ _putchar(' ');
 _putchar((product % 10) + '0');
 }
 }
+}
+}
