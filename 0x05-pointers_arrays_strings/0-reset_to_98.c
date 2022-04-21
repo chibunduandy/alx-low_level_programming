@@ -1,27 +1,13 @@
 #include "main.h"
+
 /**
- * modif_my_param - set the integer to 98
- * @n: a pointer the integer we want to set to 98
- *
- * Return: nothing
- */
+* reset_to_98 - a function that takes a pointer to an
+*int as parameter and updates the value it
+*points to to 98.
+*@n: the pointer
+* Return: returns 0
+*/
 void reset_to_98(int *n)
 {
-	*n = 98;
-}
-
-/**
- * main - pointer to integer a
- *
- * Return: Always 0.
- */
-
-{
-	int a;
-	int *p;
-
-	a = 402;
-	p = &a;
-	reset_to_98(p);
-	return (0);
+*n = 98;
 }
